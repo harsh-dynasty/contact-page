@@ -13,4 +13,11 @@ $(document).ready(function(){
         $(".container").css({transition:"color 1s ease-in-out",color:"white"});
 
     })
+    $(".talk-btn").on("click",function(){
+        $(this).css({width:"140px",height:"140px",fontSize:"14px"});
+        setTimeout(() => {
+            $(this).css({width:"150px",height:"150px",fontSize:"16px"});
+        }, 100);
+        
+    })
 })
